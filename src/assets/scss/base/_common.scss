@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300 800;
+    font-display: swap;
+    src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    font-style: normal;
+    font-weight: 300 800;
+    font-display: swap;
+    src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth_wght.ttf);
+}
+
+.parentClass .link {
+    text-decoration: none;
+}
+
+.parentClass a {
+    color: var(--main-color-book);
+}
+
+.parentClass .list {
+    list-style: none;
+}
+
+.parentClass button {
+    cursor: pointer;
+}
+
+.parentClass img {
+    display: block;
+}
+
+.parentClass {
+    font-family: var(--secFont);
+    min-height: 100%;
+    font-weight: var(--secFontWeight);
+}
+
+.parentClass hr.divider {
+    border-color: #F0F0F0;
+    opacity: 1;
+}
+
+.parentClass .vc-chrome {
+    font-family: var(--secFont) !important;
+}
+
+.parentClass .vc-chrome * {
+    z-index: 100000;
+}
+
+body[style*="theme-color"]:has(.parentClass) {
+    overflow: auto;
+}
+
+.parentClass {
+    background-color: #fff !important;
+}
+
+.wrapper-default-block {
+    position: relative;
+}
+
+.submenu-download {
+    position: absolute !important;
+    right: 10px;
+    top: 10px;
+}
+
+.tooltip-wrapper {
+    position: relative;
+}
+
+.tooltip-wrapper:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    left: 0%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+    z-index: 1;
+    font-size: 12px;
+    border: 1px solid #00000030;
+}

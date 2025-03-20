@@ -1,0 +1,88 @@
+.parentClass nav.navbar {
+    padding: 14px 0px 14px 0px;
+    height: 69px;
+    box-sizing: border-box;
+    z-index: 1060;
+
+    .image.rounded-circle+span {
+        max-width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .btn {
+        align-self: center;
+    }
+
+    .nav-item.dropdown {
+        display: flex;
+    }
+
+    .dropdown-toggle::after {
+        content: none;
+    }
+
+    .menu-toggle:focus {
+        outline: none;
+        color: var(--main-color-book) !important;
+    }
+
+    .menu-toggle:focus {
+        fill: currentColor !important;
+    }
+
+    .dropdown-menu.show {
+        display: block;
+        right: 0px;
+        left: auto !important;
+    }
+
+    .name.fs-20 {
+        letter-spacing: -2%;
+    }
+
+    @media screen and (max-width:768px) {
+        padding: 14px;
+
+    }
+
+
+    @media screen and (max-width:768px) {
+        .dropdown::before {
+            content: none !important;
+        }
+    }
+
+    .dropdown-item.active,
+    .dropdown-item:active {
+        background-color: var(--main-color-book);
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .parentClass nav.navbar {
+        padding: 5px 15px;
+        height: auto;
+        min-height: 62px;
+        border-bottom: 1px solid #E1E1E1;
+    }
+
+    .parentClass #navbarDropdownMenuLink {
+        padding: 0px
+    }
+
+
+    .parentClass .third-btn,
+    .parentClass .main-btn,
+    .parentClass .sec-btn {
+        font-size: 12px !important;
+    }
+
+    .name.fs-20 {
+        font-size: 14px !important;
+        max-width: 100px;
+        line-height: 108%;
+    }
+}

@@ -1,0 +1,157 @@
+.parentClass .btn {
+    display: flex;
+    align-items: center;
+    transition: all 300ms linear;
+    font-weight: var(--secFontWeight);
+}
+
+.parentClass .main-btn {
+    background-color: var(--main-color-book);
+    padding: 0 16px;
+    min-height: 37px;
+    border-radius: 45px;
+    border: 0px solid;
+    font-size: 16px;
+    font-weight: calc(var(--secFontWeight) + 100);
+    text-align: left;
+    color: #FFFFFF;
+
+    &:hover {
+        background-color: #000;
+        color: #FFFFFF;
+    }
+
+    svg {
+        fill: currentColor;
+    }
+}
+
+.parentClass .sec-btn {
+    border: 1px solid #000000;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: calc(var(--secFontWeight) + 100);
+    text-align: left;
+    gap: 5px;
+    padding: 0 16px;
+    min-height: 37px;
+    border-radius: 45px;
+
+    &:hover {
+        border-color: var(--main-color-book);
+        color: var(--main-color-book)
+    }
+
+    svg {
+        fill: currentColor;
+    }
+}
+
+.parentClass .third-btn {
+    border: 1px solid #000000;
+    background: #ECECEC;
+    font-size: 16px;
+    font-weight: calc(var(--secFontWeight) + 100);
+    text-align: left;
+    gap: 5px;
+    padding: 0 16px;
+    min-height: 37px;
+    border-radius: 45px;
+
+    svg {
+        fill: currentColor;
+    }
+
+    &:hover {
+        border-color: var(--main-color-book);
+        color: var(--main-color-book)
+    }
+}
+
+.parentClass .brandbooks {
+    font-weight: calc(var(--secFontWeight) + 100);
+    color: #000;
+}
+
+.parentClass button.copy,
+.parentClass button.download,
+.parentClass a.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 45px;
+    gap: 6px;
+    padding: 0 12px;
+    background: #44b678;
+    border: 0px solid;
+    color: #fff;
+    min-width: 92px;
+    width: 100%;
+
+    span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    svg {
+        width: 13px;
+        height: 13px;
+        fill: #fff;
+    }
+
+    &.save-Font {
+        min-width: 149px;
+    }
+}
+
+.parentClass button.copy,
+.parentClass a.link {
+    color: #000;
+    background: #C4C4C4;
+
+    svg {
+        width: 13px;
+        height: 13px;
+        fill: #000;
+    }
+}
+
+.parentClass a.link {
+    min-width: fit-content;
+    white-space: nowrap;
+    padding: 0 24px;
+}
+
+.parentClass .copy-color-btn {
+    border: 0px solid !important;
+    background-color: transparent;
+    padding: 0px !important;
+    color: inherit;
+    box-shadow: none !important;
+
+    svg {
+        width: 21px;
+        height: 21px;
+        fill: currentColor;
+    }
+}
+
+/* Анімація */
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+button:focus {
+    outline: 0px dotted !important;
+
+}

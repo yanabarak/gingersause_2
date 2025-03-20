@@ -1,0 +1,624 @@
+.parentClass .mh-100 {
+    max-height: 100% !important;
+}
+
+.parentClass .vh-100 {
+    height: 100vh !important;
+}
+
+.parentClass .min-vh-100 {
+    min-height: 100vh !important;
+}
+
+.parentClass .flex-fill {
+    flex: 1 1 auto !important;
+}
+
+.parentClass .flex-row {
+    flex-direction: row !important;
+}
+
+.parentClass .flex-column {
+    flex-direction: column !important;
+}
+
+.parentClass .flex-row-reverse {
+    flex-direction: row-reverse !important;
+}
+
+.parentClass .flex-column-reverse {
+    flex-direction: column-reverse !important;
+}
+
+.parentClass .flex-grow-0 {
+    flex-grow: 0 !important;
+}
+
+.parentClass .flex-grow-1 {
+    flex-grow: 1 !important;
+}
+
+.parentClass .flex-shrink-0 {
+    flex-shrink: 0 !important;
+}
+
+.parentClass .flex-shrink-1 {
+    flex-shrink: 1 !important;
+}
+
+.parentClass .flex-wrap {
+    flex-wrap: wrap !important;
+}
+
+.parentClass .flex-nowrap {
+    flex-wrap: nowrap !important;
+}
+
+.parentClass .flex-wrap-reverse {
+    flex-wrap: wrap-reverse !important;
+}
+
+.parentClass .gap-0 {
+    gap: 0 !important;
+}
+
+.parentClass .gap-1 {
+    gap: 0.25rem !important;
+}
+
+.parentClass .gap-2 {
+    gap: 0.5rem !important;
+}
+
+.parentClass .gap-3 {
+    gap: 1rem !important;
+}
+
+.parentClass .gap-4 {
+    gap: 1.5rem !important;
+}
+
+.parentClass .gap-5 {
+    gap: 3rem !important;
+}
+
+.parentClass .justify-content-start {
+    justify-content: flex-start !important;
+}
+
+.parentClass .justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.parentClass .justify-content-center {
+    justify-content: center !important;
+}
+
+.parentClass .justify-content-between {
+    justify-content: space-between !important;
+}
+
+.parentClass .justify-content-around {
+    justify-content: space-around !important;
+}
+
+.parentClass .justify-content-evenly {
+    justify-content: space-evenly !important;
+}
+
+.parentClass .align-items-start {
+    align-items: flex-start !important;
+}
+
+.parentClass .align-items-end {
+    align-items: flex-end !important;
+}
+
+.parentClass .align-items-center {
+    align-items: center !important;
+}
+
+.parentClass .align-items-baseline {
+    align-items: baseline !important;
+}
+
+.parentClass .align-items-stretch {
+    align-items: stretch !important;
+}
+
+.parentClass .align-content-start {
+    align-content: flex-start !important;
+}
+
+.parentClass .align-content-end {
+    align-content: flex-end !important;
+}
+
+.parentClass .align-content-center {
+    align-content: center !important;
+}
+
+.parentClass .align-content-between {
+    align-content: space-between !important;
+}
+
+.parentClass .align-content-around {
+    align-content: space-around !important;
+}
+
+.parentClass .align-content-stretch {
+    align-content: stretch !important;
+}
+
+.parentClass .align-self-auto {
+    align-self: auto !important;
+}
+
+.parentClass .align-self-start {
+    align-self: flex-start !important;
+}
+
+.parentClass .align-self-end {
+    align-self: flex-end !important;
+}
+
+.parentClass .align-self-center {
+    align-self: center !important;
+}
+
+.parentClass .align-self-baseline {
+    align-self: baseline !important;
+}
+
+.parentClass .align-self-stretch {
+    align-self: stretch !important;
+}
+
+.parentClass .order-first {
+    order: -1 !important;
+}
+
+.parentClass .order-0 {
+    order: 0 !important;
+}
+
+.parentClass .order-1 {
+    order: 1 !important;
+}
+
+.parentClass .order-2 {
+    order: 2 !important;
+}
+
+.parentClass .order-3 {
+    order: 3 !important;
+}
+
+.parentClass .order-4 {
+    order: 4 !important;
+}
+
+.parentClass .order-5 {
+    order: 5 !important;
+}
+
+.parentClass .order-last {
+    order: 6 !important;
+}
+
+.parentClass .m-0 {
+    margin: 0 !important;
+}
+
+.parentClass .m-1 {
+    margin: 0.25rem !important;
+}
+
+.parentClass .m-2 {
+    margin: 0.5rem !important;
+}
+
+.parentClass .m-3 {
+    margin: 1rem !important;
+}
+
+.parentClass .m-4 {
+    margin: 1.5rem !important;
+}
+
+.parentClass .m-5 {
+    margin: 3rem !important;
+}
+
+.parentClass .m-auto {
+    margin: auto !important;
+}
+
+.parentClass .mx-0 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.parentClass .mx-1 {
+    margin-right: 0.25rem !important;
+    margin-left: 0.25rem !important;
+}
+
+.parentClass .mx-2 {
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+}
+
+.parentClass .mx-3 {
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+}
+
+.parentClass .mx-4 {
+    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
+}
+
+.parentClass .mx-5 {
+    margin-right: 3rem !important;
+    margin-left: 3rem !important;
+}
+
+.parentClass .mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.parentClass .my-0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.parentClass .my-1 {
+    margin-top: 0.25rem !important;
+    margin-bottom: 0.25rem !important;
+}
+
+.parentClass .my-2 {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.parentClass .my-3 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.parentClass .my-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.parentClass .my-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.parentClass .my-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.parentClass .mt-0 {
+    margin-top: 0 !important;
+}
+
+.parentClass .mt-1 {
+    margin-top: 0.25rem !important;
+}
+
+.parentClass .mt-2 {
+    margin-top: 0.5rem !important;
+}
+
+.parentClass .mt-3 {
+    margin-top: 1rem !important;
+}
+
+.parentClass .mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.parentClass .mt-5 {
+    margin-top: 3rem !important;
+}
+
+.parentClass .mt-auto {
+    margin-top: auto !important;
+}
+
+.parentClass .me-0 {
+    margin-right: 0 !important;
+}
+
+.parentClass .me-1 {
+    margin-right: 0.25rem !important;
+}
+
+.parentClass .me-2 {
+    margin-right: 0.5rem !important;
+}
+
+.parentClass .me-3 {
+    margin-right: 1rem !important;
+}
+
+.parentClass .me-4 {
+    margin-right: 1.5rem !important;
+}
+
+.parentClass .me-5 {
+    margin-right: 3rem !important;
+}
+
+.parentClass .me-auto {
+    margin-right: auto !important;
+}
+
+.parentClass .mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.parentClass .mb-1 {
+    margin-bottom: 0.25rem !important;
+}
+
+.parentClass .mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.parentClass .mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.parentClass .mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.parentClass .mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.parentClass .mb-auto {
+    margin-bottom: auto !important;
+}
+
+.parentClass .ms-0 {
+    margin-left: 0 !important;
+}
+
+.parentClass .ms-1 {
+    margin-left: 0.25rem !important;
+}
+
+.parentClass .ms-2 {
+    margin-left: 0.5rem !important;
+}
+
+.parentClass .ms-3 {
+    margin-left: 1rem !important;
+}
+
+.parentClass .ms-4 {
+    margin-left: 1.5rem !important;
+}
+
+.parentClass .ms-5 {
+    margin-left: 3rem !important;
+}
+
+.parentClass .ms-auto {
+    margin-left: auto !important;
+}
+
+.parentClass .p-0 {
+    padding: 0 !important;
+}
+
+.parentClass .p-1 {
+    padding: 0.25rem !important;
+}
+
+.parentClass .p-2 {
+    padding: 0.5rem !important;
+}
+
+.parentClass .p-3 {
+    padding: 1rem !important;
+}
+
+.parentClass .p-4 {
+    padding: 1.5rem !important;
+}
+
+.parentClass .p-5 {
+    padding: 3rem !important;
+}
+
+.parentClass .px-0 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.parentClass .px-1 {
+    padding-right: 0.25rem !important;
+    padding-left: 0.25rem !important;
+}
+
+.parentClass .px-2 {
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
+}
+
+.parentClass .px-3 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.parentClass .px-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+.parentClass .px-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+.parentClass .py-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.parentClass .py-1 {
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+}
+
+.parentClass .py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.parentClass .py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.parentClass .py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.parentClass .py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.parentClass .pt-0 {
+    padding-top: 0 !important;
+}
+
+.parentClass .pt-1 {
+    padding-top: 0.25rem !important;
+}
+
+.parentClass .pt-2 {
+    padding-top: 0.5rem !important;
+}
+
+.parentClass .pt-3 {
+    padding-top: 1rem !important;
+}
+
+.parentClass .pt-4 {
+    padding-top: 1.5rem !important;
+}
+
+.parentClass .pt-5 {
+    padding-top: 3rem !important;
+}
+
+.parentClass .pe-0 {
+    padding-right: 0 !important;
+}
+
+.parentClass .pe-1 {
+    padding-right: 0.25rem !important;
+}
+
+.parentClass .pe-2 {
+    padding-right: 0.5rem !important;
+}
+
+.parentClass .pe-3 {
+    padding-right: 1rem !important;
+}
+
+.parentClass .pe-4 {
+    padding-right: 1.5rem !important;
+}
+
+.parentClass .pe-5 {
+    padding-right: 3rem !important;
+}
+
+.parentClass .pb-0 {
+    padding-bottom: 0 !important;
+}
+
+.parentClass .pb-1 {
+    padding-bottom: 0.25rem !important;
+}
+
+.parentClass .pb-2 {
+    padding-bottom: 0.5rem !important;
+}
+
+.parentClass .pb-3 {
+    padding-bottom: 1rem !important;
+}
+
+.parentClass .pb-4 {
+    padding-bottom: 1.5rem !important;
+}
+
+.parentClass .pb-5 {
+    padding-bottom: 3rem !important;
+}
+
+.parentClass .ps-0 {
+    padding-left: 0 !important;
+}
+
+.parentClass .ps-1 {
+    padding-left: 0.25rem !important;
+}
+
+.parentClass .ps-2 {
+    padding-left: 0.5rem !important;
+}
+
+.parentClass .ps-3 {
+    padding-left: 1rem !important;
+}
+
+.parentClass .ps-4 {
+    padding-left: 1.5rem !important;
+}
+
+.parentClass .ps-5 {
+    padding-left: 3rem !important;
+}
+
+
+@media (min-width: 1200px) {
+    .parentClass .sticky-xl-top {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1020;
+    }
+}
+
+.parentClass .align-self-start {
+    flex-grow: 0;
+    height: fit-content;
+}
+
+.parentClass .z-1 {
+    z-index: 1
+}
+
+.parentClass .text-decoration-underline {
+    text-decoration: underline !important;
+}
+
+.parentClass section {
+    flex-basis: fit-content;
+}
