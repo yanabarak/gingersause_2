@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import DownloadBlock from './DownloadBlock.vue';
-</script>
-
 <template>
   <div
     class="modal fade"
@@ -68,3 +64,13 @@ import DownloadBlock from './DownloadBlock.vue';
     </div>
   </div>
 </template>
+
+<script>
+import DownloadBlock from './DownloadBlock.vue';
+
+export default {
+  components: {
+    DownloadBlock,
+  },
+};
+</script>

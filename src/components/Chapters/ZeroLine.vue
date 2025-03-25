@@ -1,10 +1,3 @@
-<script setup lang="ts">
-import MockupBlock from '../GridBlocks/MockupBlock.vue';
-import SubMenuDownload from '../new-book/SubMenuDownload.vue';
-
-const imgSrc = '/src/assets/tshirt.png';
-</script>
-
 <template>
   <div class="gap-3 zero-line flex-xl-column">
     <div class="wrapper-default-block">
@@ -32,3 +25,20 @@ const imgSrc = '/src/assets/tshirt.png';
     />
   </div>
 </template>
+
+<script>
+import MockupBlock from '../GridBlocks/MockupBlock.vue';
+import SubMenuDownload from '../new-book/SubMenuDownload.vue';
+
+export default {
+  components: {
+    MockupBlock,
+    SubMenuDownload,
+  },
+  data() {
+    return {
+      imgSrc: '/src/assets/tshirt.png',
+    };
+  },
+};
+</script>

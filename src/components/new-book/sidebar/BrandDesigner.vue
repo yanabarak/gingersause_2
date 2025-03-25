@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import RoundedImage from '../RoundedImage.vue';
-</script>
-
 <template>
   <div class="wrapper-default-block mt-20">
     <span class="data-name">Brand designer</span>
@@ -24,3 +20,11 @@ import RoundedImage from '../RoundedImage.vue';
     </div>
   </div>
 </template>
+
+<script>
+import RoundedImage from '../RoundedImage.vue';
+
+export default {
+  components: { RoundedImage },
+};
+</script>

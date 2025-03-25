@@ -1,9 +1,3 @@
-<script setup lang="ts">
-defineProps<{
-  info: Object;
-  dataName?: string;
-}>();
-</script>
 <template>
   <div class="wrapper-default-block">
     <span v-if="dataName" class="data-name">{{ dataName }}</span>
@@ -14,3 +8,18 @@ defineProps<{
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    info: {
+      type: Object,
+      required: true,
+    },
+    dataName: {
+      type: String,
+      default: '',
+    },
+  },
+};
+</script>
