@@ -2,17 +2,31 @@
   <div class="wrapper-default-block">
     <SubMenuDownload :elements="elements" />
     <div class="default-block d-flex justify-content-center align-items-center icons-block">
-      <object :data="img" type="image/svg+xml"></object>
+      <img :src="img" :alt="text" />
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
+<script>
 import SubMenuDownload from '../new-book/SubMenuDownload.vue';
 
-defineProps<{
-  img: string;
-  text: string;
-  elements: { type: string; text: string }[];
-}>();
+export default {
+  components: {
+    SubMenuDownload,
+  },
+  props: {
+    img: {
+      type: String,
+      required: true,
+    },
+    text: {
+      type: String,
+      required: true,
+    },
+    elements: {
+      type: Array,
+      required: true,
+    },
+  },
+};
 </script>
