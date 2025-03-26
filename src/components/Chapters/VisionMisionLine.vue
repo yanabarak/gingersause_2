@@ -13,7 +13,6 @@
 import TextBlock from '../GridBlocks/TextBlock.vue';
 
 export default {
-  name: 'YourComponentName', // Replace with your actual component name
   components: {
     TextBlock,
   },

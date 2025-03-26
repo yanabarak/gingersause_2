@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import NewBook from '../views/NewBook.vue';
+import Account from '../views/Account.vue';
 
 Vue.use(VueRouter);
 
@@ -12,6 +13,11 @@ const router = new VueRouter({
       path: '/',
       name: 'new-book',
       component: NewBook,
+    },
+    {
+      path: '/account',
+      name: 'account',
+      component: Account,
     },
   ],
 });

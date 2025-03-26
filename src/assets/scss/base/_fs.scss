@@ -33,6 +33,11 @@
     /* 12 / 16 */
 }
 
+.parentClass .fs-10 {
+    font-size: calc(var(--fontSize) * 0.62);
+    /* 10 / 16 */
+}
+
 .parentClass .fs-14 {
     font-size: calc(var(--fontSize) * 0.875);
     /* 14 / 16 */
@@ -95,6 +100,11 @@
 .parentClass .mt-37 {
     margin-top: calc(var(--fontSize) * 2.3125);
     /* 37 / 16 */
+}
+
+.parentClass .mt-22 {
+    margin-top: calc(var(--fontSize) * 1.37);
+    /* 22 / 16 */
 }
 
 .parentClass .mb-12 {

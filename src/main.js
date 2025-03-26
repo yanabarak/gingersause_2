@@ -1,7 +1,7 @@
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './popper';
-import './lib/turn';
-import './bootstrap';
+//import './lib/turn';
+//import './bootstrap';
 import './js/additionalBootstrap';
 import 'vue-select/dist/vue-select.css';
 

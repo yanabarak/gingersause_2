@@ -622,3 +622,37 @@
 .parentClass section {
     flex-basis: fit-content;
 }
+
+.parentClass.account-page {
+    .container-fluid {
+        padding-left: 28px !important;
+
+        @media screen and (max-width: 1071px) {
+            padding-left: 15px !important;
+        }
+
+        @media screen and (max-width: 991px) {
+            .wrapper {
+                flex-direction: column !important;
+            }
+        }
+    }
+
+    aside.is_expanded {
+        left: 28px !important
+    }
+
+    #main-book {
+        width: calc(100vw - 363px - 23px);
+        max-width: calc(100vw - 363px - 23px);
+
+        @media screen and (max-width: 768px) {
+            max-width: 100%;
+            width: 100%;
+            padding-top: 15px;
+            overflow: visible;
+            gap: 15px !important;
+            display: flex;
+        }
+    }
+}
