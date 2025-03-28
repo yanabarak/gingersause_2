@@ -123,4 +123,14 @@
         }
 
     }
+
+    .contact-block {
+        svg {
+            flex-shrink: 0;
+        }
+
+        span {
+            word-break: break-all;
+        }
+    }
 }
