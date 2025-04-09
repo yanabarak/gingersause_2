@@ -14,6 +14,7 @@
     "bootstrap": "^4.0.0",
     "color": "^4.2.3",
     "nearest-pantone": "^1.0.1",
+    "vite": "^2.9.18",
     "vue": "^2.5.17",
     "vue-color": "^2.7.0",
     "vue-observe-visibility": "^1.0.0",
@@ -34,7 +35,6 @@
     "prettier": "^2.5.1",
     "sass": "^1.85.1",
     "sass-loader": "7.*",
-    "terser": "^5.14.2",
-    "vite": "^3.0.2"
+    "terser": "^5.14.2"
   }
 }

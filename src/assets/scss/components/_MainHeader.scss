@@ -1,4 +1,4 @@
-.parentClass nav.navbar {
+.parentClassV3 nav.navbar {
     padding: 14px 0px 14px 0px;
     height: 69px;
     box-sizing: border-box;
@@ -76,21 +76,21 @@
 
 @media screen and (max-width: 576px) {
 
-    .parentClass nav.navbar {
+    .parentClassV3 nav.navbar {
         padding: 5px 15px;
         height: auto;
         min-height: 62px;
         border-bottom: 1px solid #E1E1E1;
     }
 
-    .parentClass #navbarDropdownMenuLink {
+    .parentClassV3 #navbarDropdownMenuLink {
         padding: 0px
     }
 
 
-    .parentClass .third-btn,
-    .parentClass .main-btn,
-    .parentClass .sec-btn {
+    .parentClassV3 .third-btn,
+    .parentClassV3 .main-btn,
+    .parentClassV3 .sec-btn {
         font-size: 12px !important;
     }
 
@@ -100,7 +100,7 @@
         line-height: 108%;
     }
 
-    .parentClass nav.navbar .logo svg {
+    .parentClassV3 nav.navbar .logo svg {
         width: 127px;
         height: auto;
     }

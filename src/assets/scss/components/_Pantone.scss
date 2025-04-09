@@ -1,8 +1,8 @@
-.parentClass .simple-pantone-color {
+.parentClassV3 .simple-pantone-color {
     min-width: 170px;
 }
 
-.parentClass .simple-pantone-color .pantone-color-wrap {
+.parentClassV3 .simple-pantone-color .pantone-color-wrap {
     width: 137px;
     height: 248px;
     padding: 8px 8px 42px;
@@ -11,14 +11,14 @@
     margin: 0 auto 9px;
 }
 
-.parentClass .simple-pantone-color .color-name {
+.parentClassV3 .simple-pantone-color .color-name {
     font-size: 13.05px;
     font-weight: var(--secFontWeight);
     line-height: 23.3px;
     text-align: center;
 }
 
-.parentClass .simple-pantone-color .color-value {
+.parentClassV3 .simple-pantone-color .color-value {
     display: grid;
     grid-template-columns: auto 60%;
     gap: 4px 13px;
@@ -26,7 +26,7 @@
     max-width: 170px;
 }
 
-.parentClass .simple-pantone-color .color-value .name {
+.parentClassV3 .simple-pantone-color .color-value .name {
     font-size: 10px;
     font-weight: var(--secFontWeight);
     line-height: 20px;
@@ -34,18 +34,18 @@
     color: #999;
 }
 
-.parentClass .simple-pantone-color .color-value .value {
+.parentClassV3 .simple-pantone-color .color-value .value {
     font-size: 12px;
     line-height: 20px;
     text-align: left;
     text-wrap: wrap;
 }
 
-.parentClass .add-pantone-color {
+.parentClassV3 .add-pantone-color {
     min-width: 170px;
 }
 
-.parentClass .add-pantone-color .pantone-color-wrap {
+.parentClassV3 .add-pantone-color .pantone-color-wrap {
     width: 137px;
     height: 248px;
     padding: 8px 8px 42px;
@@ -57,19 +57,19 @@
     gap: 2px;
 }
 
-.parentClass .add-pantone-color .shade {
+.parentClassV3 .add-pantone-color .shade {
     height: 30px;
 }
 
 
-.parentClass .add-pantone-color .color-name {
+.parentClassV3 .add-pantone-color .color-name {
     font-size: 13.05px;
     font-weight: var(--secFontWeight);
     line-height: 23.3px;
     text-align: center;
 }
 
-.parentClass .add-pantone-color .color-value {
+.parentClassV3 .add-pantone-color .color-value {
     display: grid;
     grid-template-columns: auto 60%;
     gap: 4px 13px;
@@ -77,7 +77,7 @@
     max-width: 170px;
 }
 
-.parentClass .add-pantone-color .color-value .name {
+.parentClassV3 .add-pantone-color .color-value .name {
     font-size: 10px;
     font-weight: var(--secFontWeight);
     line-height: 20px;
@@ -85,14 +85,14 @@
     color: #999;
 }
 
-.parentClass .add-pantone-color .color-value .value {
+.parentClassV3 .add-pantone-color .color-value .value {
     font-size: 12px;
     line-height: 20px;
     text-align: left;
     text-wrap: wrap;
 }
 
-.parentClass .hex-inside {
+.parentClassV3 .hex-inside {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -106,7 +106,7 @@
     height: fit-content;
 }
 
-.parentClass .shade .hex-inside {
+.parentClassV3 .shade .hex-inside {
     width: 100%;
     height: 100%;
     display: block;
@@ -117,31 +117,31 @@
     justify-content: center;
 }
 
-.parentClass .pantone-color-wrap>.shade~.input-group+.hex-inside,
-.parentClass .simple-pantone-color .hex-inside {
+.parentClassV3 .pantone-color-wrap>.shade~.input-group+.hex-inside,
+.parentClassV3 .simple-pantone-color .hex-inside {
     top: 36%;
     position: absolute;
     font-size: 14px;
 }
 
-.parentClass .pantone-color-wrap {
+.parentClassV3 .pantone-color-wrap {
     position: relative;
 }
 
-.parentClass .pantone-color-wrap>.shade~.input-group {
+.parentClassV3 .pantone-color-wrap>.shade~.input-group {
     max-height: calc(100% - 96px);
 }
 
-.parentClass .vc-chrome * {
+.parentClassV3 .vc-chrome * {
     z-index: 100000;
 }
 
-.parentClass .add-pantone-color .pantone-color-wrap,
-.parentClass .add-pantone-color .pantone-color-wrap .input-group {
+.parentClassV3 .add-pantone-color .pantone-color-wrap,
+.parentClassV3 .add-pantone-color .pantone-color-wrap .input-group {
     position: unset;
 }
 
-.parentClass .add-pantone-color .pantone-color-wrap>.shade~.input-group+.hex-inside {
+.parentClassV3 .add-pantone-color .pantone-color-wrap>.shade~.input-group+.hex-inside {
     margin-top: 70px;
     position: absolute;
     top: unset !important;
@@ -149,6 +149,6 @@
     margin-left: 59px;
 }
 
-.parentClass .vc-chrome-body {
+.parentClassV3 .vc-chrome-body {
     position: relative;
 }

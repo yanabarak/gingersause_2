@@ -1,5 +1,5 @@
 <template>
-  <div class="parentClass">
+  <div class="parentClassV3">
     <MainHeader />
     <div class="container-fluid">
       <div class="wrapper d-flex align-items-stretch flex-md-row">

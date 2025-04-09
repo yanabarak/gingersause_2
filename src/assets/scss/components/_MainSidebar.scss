@@ -1,4 +1,4 @@
-.parentClass aside {
+.parentClassV3 aside {
     display: flex;
     flex-direction: column;
 
@@ -36,7 +36,7 @@
 
     &.is_expanded {
         width: 335px;
-        padding-top: 90px;
+        padding-top: 100px;
         left: 15px;
     }
 
@@ -94,13 +94,13 @@
 }
 
 
-.parentClass aside .menu:first-child {
+.parentClassV3 aside .menu:first-child {
     max-height: calc(100vh - 200px);
     overflow-x: hidden;
     overflow-y: auto;
 }
 
-.parentClass {
+.parentClassV3 {
     .profile-block {
         padding: 15px;
         width: 100%;

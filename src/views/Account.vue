@@ -1,5 +1,5 @@
 <template>
-  <div class="parentClass account-page">
+  <div class="parentClassV3 account-page">
     <AccountHeader />
     <div class="container-fluid">
       <div class="wrapper d-flex align-items-stretch flex-row">

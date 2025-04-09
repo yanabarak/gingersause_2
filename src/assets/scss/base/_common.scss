@@ -33,50 +33,50 @@
     src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth_wght.ttf);
 }
 
-.parentClass .link {
+.parentClassV3 .link {
     text-decoration: none;
 }
 
-.parentClass a {
+.parentClassV3 a {
     color: var(--main-color-book);
 }
 
-.parentClass .list {
+.parentClassV3 .list {
     list-style: none;
 }
 
-.parentClass button {
+.parentClassV3 button {
     cursor: pointer;
 }
 
-.parentClass img {
+.parentClassV3 img {
     display: block;
 }
 
-.parentClass {
+.parentClassV3 {
     font-family: var(--secFont);
     min-height: 100%;
     font-weight: var(--secFontWeight);
 }
 
-.parentClass hr.divider {
+.parentClassV3 hr.divider {
     border-color: #F0F0F0;
     opacity: 1;
 }
 
-.parentClass .vc-chrome {
+.parentClassV3 .vc-chrome {
     font-family: var(--secFont) !important;
 }
 
-.parentClass .vc-chrome * {
+.parentClassV3 .vc-chrome * {
     z-index: 100000;
 }
 
-body[style*="theme-color"]:has(.parentClass) {
+body[style*="theme-color"]:has(.parentClassV3) {
     overflow: auto;
 }
 
-.parentClass {
+.parentClassV3 {
     background-color: #fff !important;
 }
 

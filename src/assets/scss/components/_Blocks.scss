@@ -48,7 +48,8 @@
         }
     }
 
-    .logo-block svg {
+    .logo-block svg,
+    .logo-block img {
         max-width: 70%;
         max-height: 70%;
         object-fit: contain;
@@ -62,7 +63,8 @@
     min-height: 222px;
 
 
-    .logo-block svg {
+    .logo-block svg,
+    .logo-block img {
         max-width: 70%;
         max-height: 70%;
     }
