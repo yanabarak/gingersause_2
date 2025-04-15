@@ -88,11 +88,30 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
-      setTimeout(() => {
-        this.updateGridRows();
-      }, 50);
-      window.addEventListener('resize', this.updateGridRows);
-      window.addEventListener('resize', this.handleResize);
+      const images = document.querySelectorAll('img');
+      console.log(images);
+      let loadedCount = 0;
+      const totalImages = images.length;
+
+      if (totalImages === 0) {
+        this.startTimer();
+        return;
+      }
+
+      images.forEach(img => {
+        img.addEventListener('load', () => {
+          loadedCount++;
+          if (loadedCount === totalImages) {
+            this.startTimer();
+          }
+        });
+        if (img.complete) {
+          loadedCount++;
+          if (loadedCount === totalImages) {
+            this.startTimer();
+          }
+        }
+      });
     });
   },
   beforeDestroy() {
@@ -100,6 +119,14 @@ export default {
     window.removeEventListener('resize', this.updateGridRows);
   },
   methods: {
+    startTimer() {
+      setTimeout(() => {
+        console.log('Timer triggered after content load');
+        this.updateGridRows();
+      }, 100);
+      window.addEventListener('resize', this.updateGridRows);
+      window.addEventListener('resize', this.handleResize);
+    },
     handleResize() {
       this.windowWidth = window.innerWidth;
     },
