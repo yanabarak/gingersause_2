@@ -122,4 +122,25 @@
       transform: none
     }
   }
+
+  .block-download .logo-block-v3 {
+    padding: 16%;
+  }
+
+  .default-block.colors-block .title>span,
+  .default-block.colors-block .color-value {
+    opacity: 0;
+    transition: all 300ms linear
+  }
+
+  .default-block.colors-block:hover .title>span,
+  .default-block.colors-block:hover .color-value {
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 576px) {
+    nav.navbar .logo svg {
+      max-width: 50px;
+    }
+  }
 }
