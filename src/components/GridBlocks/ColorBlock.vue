@@ -5,8 +5,10 @@
       :style="`background-color: ${color}; color: ${textColor}`"
     >
       <div class="title d-flex justify-content-between align-items-center w-100">
-        <span>{{ pantoneColor.name.replace('-', ' ') }}</span>
-        <span class="tooltip-text d-none d-md-flex">{{ pantoneColor.name.replace('-', ' ') }}</span>
+        <span>{{ pantoneColor.name ? pantoneColor.name.replace('-', ' ') : 'Not found' }}</span>
+        <span class="tooltip-text d-none d-md-flex">{{
+          pantoneColor.name ? pantoneColor.name.replace('-', ' ') : 'Not found'
+        }}</span>
         <button class="btn copy-color-btn" @click="copyColorValues">
           <transition name="fade" mode="out-in">
             <svg

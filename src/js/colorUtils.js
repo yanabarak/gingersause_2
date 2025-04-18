@@ -14,6 +14,9 @@ export function rgbToCmyk(r, g, b) {
   let m = 1 - g / 255;
   let y = 1 - b / 255;
   let k = Math.min(c, Math.min(m, y));
+  if (k === 1) {
+    return { c: 0, m: 0, y: 0, k: 100 };
+  }
   c = (c - k) / (1 - k);
   m = (m - k) / (1 - k);
   y = (y - k) / (1 - k);
