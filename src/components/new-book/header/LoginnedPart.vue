@@ -1,12 +1,13 @@
 <template>
   <div class="d-flex justify-content-between flex-grow-1 align-content-center">
-    <div class="d-none d-xl-flex gap-2 flex-grow-0">
-      <button class="btn sec-btn">
+    <div class="d-flex gap-2 flex-grow-0">
+      <button class="btn sec-btn generate-btn">
         <svg class="icon icon-generate" width="17" height="17">
           <use href="@/assets/icons/symbol-defs.svg#icon-generate"></use>
         </svg>
         Regenerate book
       </button>
+      <button class="btn main-btn">Copy link</button>
       <!-- <button class="btn main-btn">Save changes</button>
       <button class="btn sec-btn">Cancel</button> -->
     </div>
