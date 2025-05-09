@@ -98,7 +98,7 @@
 
 .three-elements {
     display: grid;
-    grid-template-columns: 64% 36%;
+    grid-template-columns: 50% 50%;
     width: 100%;
     min-height: 222px;
 
@@ -144,17 +144,46 @@
         width: 1px;
         top: 0px;
         bottom: 0px;
-        left: 64%;
+        left: 50%;
         transform: translateX(-50%);
     }
 
     &:after {
-        width: 36%;
-        height: 1px;
-        left: 64%;
+        width: calc(50% - 1px);
+        height: 3px;
+        left: 50%;
         right: 0px;
         top: 50%;
         transform: translateY(-50%);
+        background-color: #fff
+    }
+
+    &:has(div:only-of-type):before,
+    &:has(div:only-of-type):after {
+        content: none !important;
+    }
+
+    &>div:only-of-type {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    &:has(div:nth-of-type(2):nth-last-of-type(1))::after {
+        content: none !important;
+    }
+
+    &>div:nth-of-type(2):nth-last-of-type(1) {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    &.default-block>div:nth-of-type(2):nth-last-of-type(2) img,
+    &.default-block>div:nth-of-type(3):nth-last-of-type(1) img {
+        max-height: 35%
     }
 }
 

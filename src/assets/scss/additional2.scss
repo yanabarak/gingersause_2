@@ -212,3 +212,9 @@
     display: none !important;
   }
 }
+
+@media (min-width: 1080px) {
+  .four-elements .logo-block-v3 {
+    height: 100% !important;
+  }
+}
