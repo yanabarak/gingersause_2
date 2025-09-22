@@ -174,6 +174,7 @@ export default {
 
         const rowSpan = Math.ceil(itemHeight / (rowHeight + rowGap));
         item.style.gridRowEnd = `span ${rowSpan}`;
+        console.log(item.childNodes);
       });
 
       document.getElementById('main-book').style.display = 'grid';

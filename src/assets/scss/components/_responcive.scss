@@ -16,7 +16,7 @@
 
         #main-book {
             grid-template-columns: calc(70% - 5px) calc(30% - 5px);
-            grid-auto-rows: 2px;
+            // grid-auto-rows: 2px;
             gap: 0px 10px !important;
             padding: 70px 0 40px;
             max-width: 100%;
